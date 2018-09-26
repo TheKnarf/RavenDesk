@@ -1,0 +1,17 @@
+{
+  "name": "ravendesk-extractor-plugin",
+  "version": "1.0.0",
+  "description": "Evaluate javascript and extract assets to their own files as part of the Webpack build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "ravendesk",
+    "extractor",
+    "plugin"
+  ],
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT"
+}

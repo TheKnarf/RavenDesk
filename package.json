@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKnarf/RavenDesk.git"
+  },
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheKnarf/RavenDesk/issues"
+  },
+  "homepage": "https://github.com/TheKnarf/RavenDesk#readme",
+  "devDependencies": {
+    "lerna": "^3.3.0"
+  }
+}
