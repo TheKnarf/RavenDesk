@@ -1,0 +1,19 @@
+{
+  "name": "webpack-git-deploy",
+  "version": "0.1.0",
+  "description": "Creates a git commit from webpack build artifacts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "git"
+  ],
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-git": "^0.7.8",
+    "memory-fs": "^0.4.1"
+  }
+}

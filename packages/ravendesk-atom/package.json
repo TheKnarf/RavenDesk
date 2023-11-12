@@ -1,0 +1,20 @@
+{
+  "name": "@ravendesk/atom",
+  "version": "1.0.0",
+  "description": "A reusable package for adding Atom feeds to your webpage",
+  "main": "src/index.js",
+  "private": "true",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ravendesk/cli": "./packages/ravendesk-cli",
+    "@ravendesk/preset-blog": "./packages/ravendesk-preset-blog",
+    "jest": "^24.8.0"
+  }
+}

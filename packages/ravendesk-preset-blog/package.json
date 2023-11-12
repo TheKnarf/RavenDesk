@@ -1,0 +1,25 @@
+{
+  "name": "@ravendesk/preset-blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "extractor-webpack-plugin": "^0.1.0",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "isomorphic-jsx": "^0.3.0",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^0.7.0",
+    "ravendesk-mdx-loader": "./packages/ravendesk-mdx-loader",
+    "raw-loader": "^3.0.0",
+    "simple-frontmatter-loader": "^0.1.1",
+    "style-loader": "^0.23.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

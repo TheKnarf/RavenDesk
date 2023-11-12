@@ -1,0 +1,33 @@
+{
+  "name": "@ravendesk/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "private": "true",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT",
+  "bin": {
+    "ravendesk": "src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "express": "^4.17.1",
+    "extractor-webpack-plugin": "^0.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "glob": "^7.1.4",
+    "isomorphic-jsx": "^0.3.0",
+    "vhost": "^3.0.2",
+    "webpack": "^4.35.3",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-git-deploy": "./packages/webpack-git-deploy"
+  },
+  "files": [
+    "src/**/*"
+  ]
+}

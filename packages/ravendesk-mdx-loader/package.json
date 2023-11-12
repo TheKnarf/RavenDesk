@@ -1,0 +1,14 @@
+{
+  "name": "ravendesk-mdx-loader",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Lyder Bredland",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.1.0"
+  }
+}
