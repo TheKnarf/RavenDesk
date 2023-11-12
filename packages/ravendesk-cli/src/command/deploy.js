@@ -1,3 +1,7 @@
+/*
+ * Removed the following line from `package.json`:
+ * "webpack-git-deploy": "./packages/webpack-git-deploy"
+ * TODO: add t back when you want to work on this feature
 const { setupCompiler } = require('../helpers/compiler.js'),
 		WebpackGitPlugin = require('webpack-git-deploy');
 
@@ -37,3 +41,4 @@ module.exports = program =>
 		.command('deploy')
 		.option('-p, --packfile', 'Experimental: output build as packfile', false)
 		.action(action);
+//*/

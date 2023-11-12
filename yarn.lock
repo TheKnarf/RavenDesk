@@ -1267,7 +1267,6 @@
     vhost "^3.0.2"
     webpack "^4.35.3"
     webpack-dev-middleware "^3.7.0"
-    webpack-git-deploy "./packages/webpack-git-deploy"
 
 "@ravendesk/preset-blog@./packages/ravendesk-preset-blog":
   version "1.0.0"
@@ -7264,12 +7263,6 @@ webpack-dev-middleware@^3.7.0:
     mkdirp "^0.5.1"
     range-parser "^1.2.1"
     webpack-log "^2.0.0"
-
-webpack-git-deploy@./packages/webpack-git-deploy:
-  version "0.1.0"
-  dependencies:
-    js-git "^0.7.8"
-    memory-fs "^0.4.1"
 
 webpack-log@^2.0.0:
   version "2.0.0"

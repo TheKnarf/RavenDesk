@@ -24,8 +24,7 @@
     "isomorphic-jsx": "^0.3.0",
     "vhost": "^3.0.2",
     "webpack": "^4.35.3",
-    "webpack-dev-middleware": "^3.7.0",
-    "webpack-git-deploy": "./packages/webpack-git-deploy"
+    "webpack-dev-middleware": "^3.7.0"
   },
   "files": [
     "src/**/*"
